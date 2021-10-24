@@ -12,9 +12,9 @@ function refreshTime() {
   }
   if (h > 12) {
     h -= 12;
-    dayNight = "pm";
+    dayNight = "PM";
   } else {
-    dayNight = "am";
+    dayNight = "AM";
   }
   // add zero place holder infront off single digits
   if (h < 10) {
